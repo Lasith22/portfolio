@@ -1,3 +1,43 @@
 .hero {
-  color: blue;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+}
+.hSection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hSection.right {
+  align-items: end;
+}
+
+.hTitle {
+  margin-top: 50px;
+  font-size: 50px;
+  color: pink;
+}
+.hTitle span {
+  color: white;
+}
+.awards {
+  width: 30%;
+}
+.awards p {
+  color: #ddd;
+  font-size: 14px;
+  margin: 16px 0px;
+}
+.awardList {
+  display: flex;
+  gap: 8px;
+}
+.awardList img {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 8px;
 }
